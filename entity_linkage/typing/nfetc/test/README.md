@@ -8,7 +8,7 @@ There are 3 lines of sample clean data input.
 7	8	OK , we 'll call him General Ye Ting .	General Ye Ting	/location
 0	1	Very naughty ?	<PAD> Very naughty	/other/art/music
 ```
-<br>
+
 2) **raw_data.txt**
 If you download publicabily avaliable data that the original NFETC github suggests to download, you will get raw data. (http://www.cl.ecei.tohoku.ac.jp/~shimaoka/corpus.zip)
 It will have one more column, "f", at the end; ["start position", "end position", "text", "mention", "Type(s)", "f"]
