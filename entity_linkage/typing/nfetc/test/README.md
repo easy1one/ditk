@@ -1,6 +1,6 @@
 For NFETC model, you can put 2 types of input; **raw_data**, **clean_data**.
 <br>
-1) **clean_data.tsv**
+1) **clean_data.tsv**<br>
 Corpus input format is ["start position", "end position", "text", "mention", "Type(s)"]. 
 There are 3 lines of sample clean data input.
 ```
@@ -9,7 +9,7 @@ There are 3 lines of sample clean data input.
 0	1	Very naughty ?	<PAD> Very naughty	/other/art/music
 ```
 
-2) **raw_data.txt**
+2) **raw_data.txt**<br>
 If you download publicabily avaliable data that the original NFETC github suggests to download, you will get raw data. (http://www.cl.ecei.tohoku.ac.jp/~shimaoka/corpus.zip)
 It will have one more column, "f", at the end; ["start position", "end position", "text", "mention", "Type(s)", "f"]
 
@@ -20,6 +20,6 @@ It will have one more column, "f", at the end; ["start position", "end position"
 ```
 
 <br><br>
-### Embedding (glove.840B.300d)
+### Embedding (glove.840B.300d)<br>
 If you want to use other inputs, you must download word embedding file form http://nlp.stanford.edu/data/glove.840B.300d.zip and replace current golve file to full size of golve word embedding file.
 I uploaded downsized word embedding file due to the limitation of size (under data folder in develop branch)
